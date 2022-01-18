@@ -1,0 +1,63 @@
+.main {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50pt;
+  color: #ffffff;
+  margin-left: 650px;
+  margin-top: 100px;
+}
+
+.pic {
+  margin-left: 800px;
+  margin-top: -100px;
+}
+
+.apps {
+  margin-left: 815px;
+  margin-top: 50px;
+}
+
+.about {
+  color: #ffffff;
+  /* margin-left: 200px; */
+  margin-top: 50px;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.socials{
+  margin-left: 800px;
+  margin-top: 50px;
+}
+
+/* SOCIALS LINKS */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
