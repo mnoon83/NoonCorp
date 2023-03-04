@@ -1,42 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --font-color: white;
+  --font-color-faded: rgb(216, 216, 216);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  background: black;
+}
+
 .home {
-  margin-left: 20px;
-  margin-top: 20px;
-  color: #969595;
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  color: var(--font-color-faded);
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
-.title{
-  margin-top: 50px;
-  color: #ffffff;
+.home:hover {
+  color: var(--font-color);
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0em 2em 1em 2em;
+  color: var(--font-color);
+  font-family: 'Roboto', sans-serif;
+  gap: 1rem;
+}
+
+.logo {
+  width: 215px;
+  height: auto;
+}
+
+.content {
+  color: var(--font-color);
   text-align: center;
-  font-size: 80pt;
+  max-width: 750px;
 }
 
-.pic {
-  margin-top: 65px;
-  margin-left: 700px;
+.email {
+  color: var(--font-color);
+}
+
+.email:hover {
+  color: var(--font-color-faded);
 }
 
 .about {
-  color: #ffffff;
-  /* margin-left: 200px; */
-  margin-top: 50px;
+  color: var(--font-color);
   font-size: 14pt;
   text-align: center;
 }
 
+/* SOCIALS LINKS */
+
 .socials {
-  margin-left: 850px;
-  margin-top: 50px;
+  display: flex;
+  gap: 0.5rem;
 }
 
-/* SOCIALS LINKS */
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
   width: 20px;
   text-align: center;
   text-decoration: none;
+  border-radius: 0.5rem;
 }
 
 .fa:hover {
@@ -44,17 +86,41 @@
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
-#grad1 {
+@media (min-width: 400px) {
+  .main {
+    font-size: 1.15em;
+  }
+}
+
+@media (min-width: 650px) {
+  .logo {
+    width: 275px;
+  }
+  .main {
+    font-size: 24px;
+  }
+  .fa {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .logo {
+    width: 375px;
+  }
+}
+
+/* #grad1 {
   height: 800px;
   background-color: #000000;
-  background-image: linear-gradient(to top right, #000000, #00008B);
-}
+  background-image: linear-gradient(to top right, #000000, #00008b);
+} */
