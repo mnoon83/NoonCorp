@@ -1,0 +1,69 @@
+.home {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #4b3c3c;
+  text-decoration: none;
+}
+
+.pic {
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.title {
+  margin-top: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 80pt;
+}
+
+.apps {
+  margin-left: 815px;
+  margin-top: 50px;
+}
+
+.about {
+  color: #ffffff;
+  /* margin-left: 200px; */
+  margin-top: 50px;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.socials {
+  margin-left: 925px;
+  margin-top: 50px;
+}
+
+/* SOCIALS LINKS */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
